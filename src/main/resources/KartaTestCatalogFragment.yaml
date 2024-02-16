@@ -1,0 +1,23 @@
+---
+name: Sample UI Tests
+description: sample UI tests category
+
+tags:
+
+featureSourceParsers:
+
+stepRunners:
+
+testDataSources:
+
+tests:
+  - name: WebAutomation
+    priority: 1
+    description: Web Automation test
+    tags:
+      - UI
+    featureFileName: featureFiles/WebAutomation.yaml
+    numberOfIterations: 1
+    numberOfThreads: 1
+
+subCategories: [ ]

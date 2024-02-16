@@ -1,0 +1,26 @@
+pluginConfigurations:
+
+enabledPlugins:
+  - HTMLReportTestEventListener
+
+propertyFiles:
+  - TestProperties
+
+### Thread group name map to the number of threads to use to run tests with for the thread group. __default__ is the name of the default thread group
+threadGroups:
+
+configurationScanPackages:
+
+testCatalogFragmentFiles:
+
+properties:
+  Karta:
+    detailedResults: true
+    EventProcessor.numberOfThread: 10
+
+  Kriya:
+    stepDefinitionPackageNames:
+      - stepdefs
+
+  HTMLReportTestEventListener:
+    runReportsBaseFolderName: sampleUIRunReports
